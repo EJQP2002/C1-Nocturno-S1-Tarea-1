@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/SaveData.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Registrar Usuarios</title>
+</head>
+<body>
+
+<ul class="horizontal-list">
+    <li><a href="index.html">Javic Soft Code</a></li>
+    <li><a href="SaveData.html">Registrar Usuarios De Mi Pagina Web</a></li>
+    <li><a href="ShowData.html">Usuarios Registrados En Mi Pagina Web</a></li>
+</ul>
+
+<div class="container">
+    <form class="form">
+
+        <div>
+            <label for="nameLastname">&nbsp;<i class="fas fa-id-card"></i>&nbsp;Nombres y Apellidos</label>
+            <input type="text" id="nameLastname" placeholder="Ingresar nombres completos.">
+        </div>
+
+        <div>
+            <label for="age">&nbsp;<i class="fas fa-birthday-cake"></i>&nbsp;Edad</label>
+            <input type="number" id="age" placeholder="Ingresar su edad.">
+        </div>
+
+        <div>
+            <label for="user">&nbsp;<i class="fas fa-user"></i>&nbsp;Usuario</label>
+            <input type="text" id="user" placeholder="Ingresar su usuario.">
+        </div>
+
+        <div>
+            <label for="password">&nbsp;<i class="fas fa-lock"></i>&nbsp; Contraseña</label>
+            <input type="password" id="password" placeholder="Ingresar su contraseña.">
+        </div>
+
+        <div>
+            <button type="submit" id="btnSave">Guardar</button>
+        </div>
+
+    </form>
+</div>
+<footer class="footer">
+    <div class="container">
+        <span class="text-muted">© 2024 Javic Soft Code.</span>
+    </div>
+</footer>
+<script src="js/SaveData.js"></script>
+</body>
+</html>

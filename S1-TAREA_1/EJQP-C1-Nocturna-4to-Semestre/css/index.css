@@ -1,0 +1,60 @@
+* {
+    font-family: "Courier New", emoji;
+    font-weight: bold;
+}
+
+.horizontal-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: #00fff1;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-size: 20px;
+}
+
+.horizontal-list li {
+    margin: 0;
+}
+
+.horizontal-list li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #c000ff;
+    transition: background-color 0.3s;
+}
+
+.horizontal-list li a:hover {
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.horizontal-list li a:active {
+    background-color: #fff633;
+}
+
+.container {
+    padding-top: 50px;
+}
+
+main {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 3px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #82ffdc;
+    text-align: center;
+}

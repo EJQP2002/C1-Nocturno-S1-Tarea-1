@@ -1,0 +1,117 @@
+* {
+    font-family: "Courier New", emoji;
+    font-weight: bold;
+}
+
+.horizontal-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: #00fff1;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-size: 20px;
+}
+
+.horizontal-list li {
+    margin: 0;
+}
+
+.horizontal-list li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #c000ff;
+    transition: background-color 0.3s;
+}
+
+.horizontal-list li a:hover {
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.horizontal-list li a:active {
+    background-color: #fff633;
+}
+
+.container {
+    padding-top: 50px;
+}
+
+.form {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 3px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form div {
+    margin-bottom: 20px;
+}
+
+.form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #C000FFFF;
+}
+
+.form input[type="text"],
+.form input[type="number"],
+.form input[type="password"],
+.form button {
+    width: 98%;
+    padding: 10px;
+    border: 3px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.form button {
+    padding: 10px 20px;
+    background-color: #00fff1;
+    color: #c000ff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 20px;
+}
+
+.form button:active {
+    background-color: #fff633;
+}
+
+.notification {
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, 100%);
+    background-color: #00fff1;
+    color: #c000ff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    z-index: 9999;
+    font-size: 20px;
+}
+
+.notification.active {
+    opacity: 1;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #82ffdc;
+    text-align: center;
+}
